@@ -7,6 +7,6 @@ namespace FrameWork_Challenge_2.Negocio.Interfaces
 {
     public interface ICamadaNegocio
     {
-        NumerosPrimos GerarNumerosPrimos(NumerosPrimos entrada);
+        int[] GerarNumerosPrimos(int entrada);
     }
 }

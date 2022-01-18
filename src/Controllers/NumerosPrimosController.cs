@@ -32,7 +32,7 @@ namespace FrameWork_Challenge_2.Controllers
             }
             else
             {
-                 return new ObjectResult(_camadaNegocio.GerarNumerosPrimos(entidade));
+                 return new ObjectResult(_camadaNegocio.GerarNumerosPrimos(entidade.entrada));
            
             }
         }
